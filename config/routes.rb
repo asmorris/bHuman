@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   
-  get '/contact', to: 'static_pages#contact'
+  root to: 'static_pages#contact'
   get '/about', to: 'static_pages#about'
   get '/faq', to: 'static_pages#faq'
 
