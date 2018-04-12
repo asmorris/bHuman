@@ -17,8 +17,8 @@
 !/log/.keep
 !/tmp/.keep
 
-# Ignore the env variables
-/config/_env.rb
+# Ignore config files
+/config/*
 
 /node_modules
 /yarn-error.log
